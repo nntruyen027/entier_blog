@@ -1,0 +1,40 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+html {
+    margin: 0;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    display: inline-flex;
+    margin-top: 10px;
+    width: 100%;
+}
+
+header .top-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 20px;
+}
+
+header .top-menu a {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0;
+}
+
+header .sub-top-menu {
+    display: inline;
+
+}
+
+main {
+    margin-top: 50px;
+}
