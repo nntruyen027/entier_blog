@@ -48,6 +48,14 @@ header .top-menu a {
     font-style: normal;
 }
 
+header input {
+    display: inline-block;
+    height: 20px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+
 /*css for main*/
 main {
     margin-top: 80px;
@@ -117,4 +125,22 @@ footer {
 footer a {
     font-size: 24px;
     margin: 0 5px
+}
+
+/*css for container*/
+.container {
+    margin: 50px 0;
+}
+
+.container>h2::after {
+    display: block;
+    content: "";
+    width: 100%;
+    height: 1px;
+    margin-top: 2px;
+    background-color: black;
+}
+
+.container>p {
+    text-align: justify;
 }

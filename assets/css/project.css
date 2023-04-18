@@ -1,0 +1,26 @@
+thead {
+    text-align: center;
+}
+
+tr {
+    background-color: rgb(223, 225, 246);
+}
+
+td {
+    padding: 12px;
+}
+
+tr>.no,
+.name,
+.code,
+.status,
+.more,
+.member {
+    text-align: center;
+}
+
+
+
+td.summary {
+    width: 600px;
+}
