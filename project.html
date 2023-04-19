@@ -20,9 +20,7 @@
         <div class="top-menu">
             <a href="index.html">Trang Chủ</a><a href="/introduce.html">Tự Bạch</a><a href="/project.html">Dự Án</a><a
                 href="#">Liên
-                Hệ</a><a href="#" class="login" id="login">Đăng nhập</a><input type="text"
-                placeholder="Tìm kiếm gì đó?"><a href="#" class="search"><i
-                    class="fa-solid fa-magnifying-glass"></i></a>
+                Hệ</a><input type="text" placeholder="Tìm kiếm gì đó?"><a href="#" class="search"></a>
         </div>
     </header>
     <main>
@@ -141,6 +139,49 @@
                         <td class="more"><a href="">Chi tiết</a></td>
                     </tr>
             </table>
+        </div>
+        <div class="concept container">
+            <h2>Ý tưởng mới</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni necessitatibus earum nam cupiditate, harum
+                assumenda doloribus dicta repudiandae iure nemo, voluptate illum porro quae odit impedit velit ullam
+                doloremque facilis.</p>
+            <form action="get">
+                <table>
+                    <tr>
+                        <td>Họ tên</td>
+                        <td><input type="text" name="fullname" id="fullname" placeholder="Nhập họ tên đầy đủ" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Giới tính</td>
+                        <td>
+                            <input type="radio" name="sex" id="man">Nam
+                            <input type="radio" name="sex" id="woman">Nữ
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td><input type="email" name="mail" id="email" placeholder="Nhập email" required></td>
+                    </tr>
+                    <tr>
+                        <td>Số điện thoại</td>
+                        <td><input type="text" name="phone" id="phone" placeholder="Nhập số điện thoại"></td>
+                    </tr>
+                    <tr>
+                        <td>Tên dự án</td>
+                        <td><input type="text" name="project-name" id="project-name"
+                                placeholder="Nhập tên ý tưởng dự án" required></td>
+                    </tr>
+                    <tr>
+                        <td>Mô tả dự án</td>
+                        <td><textarea name="summary-project" id="summary-project" cols="40" rows="10"
+                                placeholder="Nhập mô tả dự án" required></textarea></td>
+                    </tr>
+                    <tr class="submit">
+                        <td colspan="2"><input type="submit" value="Gửi đi"></td>
+                    </tr>
+                </table>
+            </form>
         </div>
     </main>
     <footer>

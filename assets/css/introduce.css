@@ -9,3 +9,10 @@ img {
     margin: 0 20px;
     border-radius: 10px;
 }
+
+.about-blog p {
+    display: block;
+    display: block;
+    width: 62%;
+    float: left;
+}
