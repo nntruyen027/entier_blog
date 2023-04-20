@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="/assets/css/all.min.css">
     <script src="/assets/js/all.js"></script>
     <script src="/assets/js/all.min.js"></script>
+    <script src="/assets/js/home.js"></script>
 </head>
 
 <body>
@@ -91,6 +92,50 @@
             </div>
         </div>
     </main>
+
+    <div class="contact-background">
+    </div>
+    <div class="contact-container">
+        <div class="contact">
+            <div class="close">X</div>
+            <h2>LIÊN HỆ VỚI CHÚNG TÔI</h2>
+            <form action="" method="post">
+                <table>
+                    <tr>
+                        <td class="contact-name"><input type="text" placeholder="Họ tên"></td>
+                        <td class="contact-mail"><input type="text" placeholder="E-mail"></td>
+                    </tr>
+                    <tr>
+                        <td class="contact-phone"><input type="text" placeholder="Điện thoại"></td>
+                        <td class="contact-address"><input type="text" placeholder="Địa chỉ"></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <select name="contact-who" id="contact-who">
+                                <option value="who" class="who" selected>Bạn là ai?</option>
+                                <option value="student">Học sinh - sinh viên</option>
+                                <option value="ba">Nhà phân tích</option>
+                                <option value="designer">Nhà thiết kế</option>
+                                <option value="coder">Lập trình viên</option>
+                                <option value="tester">Kiểm thử viên</option>
+                                <option value="pm">Quản lý dự án</option>
+                                <option value="other">Khác</option>
+
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><textarea name="contact-other" id="contact-other" cols="40" rows="10"
+                                placeholder="Bạn có điều gì muốn nói?"></textarea></td>
+                    </tr>
+                    <tr>
+                        <td class="contact-submit" colspan="2"><input type="submit"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+    </div>
+
     <footer>
         <a href="" class="facebook"><i class="fa-brands fa-facebook"></i></a>
         <a href="" class="tiktok"><i class="fa-brands fa-tiktok"></i></a>
