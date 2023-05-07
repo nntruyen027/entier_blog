@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Entier Blog</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/add-post.css">
+    <link rel="stylesheet" href="/assets/css/all.css">
+    <link rel="stylesheet" href="/assets/css/all.min.css">
+    <script src="/assets/js/all.js"></script>
+    <script src="/assets/js/all.min.js"></script>
+    <script src="/assets/js/home.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="#">Entier Blog</a>
+        <div class="top-menu">
+            <a href="/">Trang Chủ</a><a href="/introduce">Giới Thiệu</a><a href="/post">Bài
+                Viết</a><input type="text" placeholder="Tìm kiếm gì đó?"><a href="#" class="search"></a>
+        </div>
+    </header>
+    <main>
+
+
+        <form class="post" action="" method="post">
+            <h2>Thêm tin</h2>
+            <table>
+                <tr>
+                    <td class="post-title"><input name="title" type="text" placeholder="Tiêu đề"></td>
+                    <td class="post-img"><input name="image" type="file"></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <select name="categogy" id="post-categogy">
+                            <option value="who" class="who" selected>Thể loại</option>
+                            <option value="student">Câu chuyện Phân tích yêu cầu</option>
+                            <option value="ba">Trải nghiệm của Nhà thiết kế</option>
+                            <option value="designer">Cái khổ của Coder</option>
+                            <option value="coder">Nỗi lòng của Tester</option>
+                            <option value="tester">Con đường của Quản lý dự án</option>
+                            <option value="pm">Dân IT và cái kết</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td colspan="2"><textarea name="summary" id="post-summary" cols="40" rows="3"
+                            placeholder="Tóm tắt bài đăng"></textarea></td>
+                </tr>
+                <tr>
+                    <td colspan="2"><textarea name="detail" id="post-detail" cols="40" rows="10"
+                            placeholder="Bạn có điều gì muốn nói?"></textarea></td>
+                </tr>
+                <tr>
+                    <td class="post-submit" colspan="2"><input type="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </main>
+    <footer>
+        <a href="" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+        <a href="" class="tiktok"><i class="fa-brands fa-tiktok"></i></a>
+        <a href="" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+        <a href="" class="intagram"><i class="fa-brands fa-instagram"></i></a>
+
+    </footer>
+</body>
+
+</html>
